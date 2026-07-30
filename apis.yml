@@ -1,8 +1,27 @@
 aid: melodics
 name: Melodics
-description: Melodics is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Melodics is a New Zealand-based interactive music-learning application that
+  teaches drums, MIDI keyboards, and pad controllers (finger drumming) through
+  gamified, real-time lessons. It connects to electronic instruments and MIDI
+  controllers to give immediate feedback on timing and accuracy, offering guided
+  learning paths, song tutorials, and structured daily practice for beginner
+  through advanced players across desktop and mobile. Melodics is a consumer
+  edtech product and a portfolio company of 500 Global; it publishes no public
+  developer API surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/melodics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://melodics.com/next-images/favicon/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Music
+- Music Education
+- Education
+- Learning
+- MIDI
+- EdTech
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://melodics.com
+- type: Support
+  url: https://support.melodics.com
+- type: Blog
+  url: https://melodics.com/blog
+- type: Pricing
+  url: https://melodics.com/plans
+- type: Login
+  url: https://account.melodics.com/login
+- type: TermsOfService
+  url: https://melodics.com/legal#websites-terms-conditions
+- type: PrivacyPolicy
+  url: https://melodics.com/legal#websites-privacy-policy
+- type: About
+  url: https://melodics.com/about
+- type: DomainSecurity
+  url: security/melodics-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
